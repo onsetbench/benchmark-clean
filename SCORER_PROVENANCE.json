@@ -1,0 +1,53 @@
+{
+  "frozen_file_sha256": "1d0eb1ba9ab6c5dce53b4c8d28d52ed71ef0a9ff732f09f40038520c34c8ff19",
+  "functions": [
+    {
+      "function": "match_events",
+      "function_sha256": "06340343c1fa03f0237d7a1d57187d7a8fa756e4eeb0e827927735de37afb09a"
+    },
+    {
+      "function": "window_labels",
+      "function_sha256": "f209d2ef67cf230d0aabaadcdc314117e973cc1ec62a1f8ec9ba50cd8543c40f"
+    },
+    {
+      "function": "union_ms",
+      "function_sha256": "7e7e896ce9b54207fdfbf4deca0711b5541ded13730b0ac9d2f74dfbedf8abbb"
+    },
+    {
+      "function": "controlled_times",
+      "function_sha256": "5f4c9755c7bf7edc013889a3f84016a50905a3591a8a7c8959b28dc2145723ae"
+    },
+    {
+      "function": "score_block",
+      "function_sha256": "06f539b9b23efacac10aa05ae43cf14accf390f79ccc995708da70d411b63a7a"
+    },
+    {
+      "function": "summarize",
+      "function_sha256": "39983712b46696fefaa7c7799e0a7dd6cc130191c8ac69b6bb008d5d444a99ea"
+    },
+    {
+      "function": "contrast",
+      "function_sha256": "33f94bddeade5f0f453da6a8a6b11ff3c5a62fc4b98132cd3ac855b9034a1cd9"
+    },
+    {
+      "function": "require",
+      "function_sha256": "f01c3f7b9cb39e4a20502dfb921fa9c316a6d157b704fb7758a9bfcf0f0a463c"
+    },
+    {
+      "function": "integers",
+      "function_sha256": "e2c4fdad2b32a40c344fb381eea773b709fbd482223968ea3106420962cfad67"
+    },
+    {
+      "function": "state_counts",
+      "function_sha256": "838f02a2ad9077abd1d8c7e66258923e9171ecb5556c2944fc4490b0715a0f11"
+    },
+    {
+      "function": "state_component",
+      "function_sha256": "ed8630e21cf861af26d67cdfc4a1abcc3508291573dde42b2aeed470d0e31bcb"
+    },
+    {
+      "function": "paired_contrast",
+      "function_sha256": "ced11ab80b3595d63ba4643fcac804beeddfc2dbcd488ab3a36fa1db01b3b215"
+    }
+  ]
+}

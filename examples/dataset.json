@@ -1,0 +1,53 @@
+{
+  "schema": "onsetbench.dataset/1",
+  "dataset_id": "synthetic-example",
+  "split": "synthetic",
+  "clock": "epoch_ms",
+  "inputs": "standard_video",
+  "records": [
+    {
+      "recording": "toy-a",
+      "starts_ms": [
+        1700000000000.0,
+        1700000000800.0,
+        1700000001600.0,
+        1700000002400.0,
+        1700000003200.0,
+        1700000004000.0,
+        1700000004800.0,
+        1700000005600.0,
+        1700000006400.0,
+        1700000007200.0
+      ],
+      "span_ms": 800.0,
+      "references": {
+        "SENSOR": {
+          "path": "examples/refs/toy-a.json",
+          "sha256": "bb94ae53ca0b2b29eb6bcfa2a9321a795899ccc39d0834d9f15e6eb9bd051703"
+        }
+      }
+    },
+    {
+      "recording": "toy-b",
+      "starts_ms": [
+        1700000000000.0,
+        1700000000800.0,
+        1700000001600.0,
+        1700000002400.0,
+        1700000003200.0,
+        1700000004000.0,
+        1700000004800.0,
+        1700000005600.0,
+        1700000006400.0,
+        1700000007200.0
+      ],
+      "span_ms": 800.0,
+      "references": {
+        "SENSOR": {
+          "path": "examples/refs/toy-b.json",
+          "sha256": "6516da940ecefe45f6187e28754c23ce63dc0591f5ec3932ce95880bad03d4d4"
+        }
+      }
+    }
+  ]
+}

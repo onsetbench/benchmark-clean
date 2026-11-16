@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "onsetbench"
+version = "0.1.0rc2"
+description = "Score physical event predictions from standard video"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy==2.4.6"]
+
+[project.optional-dependencies]
+video = ["h5py==3.16.0", "opencv-python-headless==5.0.0.93"]
+
+[project.scripts]
+onsetbench = "onsetbench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

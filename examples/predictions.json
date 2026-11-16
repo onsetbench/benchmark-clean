@@ -1,0 +1,22 @@
+{
+  "schema": "onsetbench.predictions/1",
+  "dataset_sha256": "02bcc4c5c42b6a80673f0c16d82b2ad3e779ca8963680083ef52d3e471e30c35",
+  "name": "example",
+  "inputs": "standard_video",
+  "target": "SENSOR",
+  "recordings": {
+    "toy-a": {
+      "onsets_ms": [
+        1700000001200.0,
+        1700000001500.0
+      ]
+    },
+    "toy-b": {
+      "onsets_ms": [
+        1700000005000.0,
+        1700000005000.0,
+        1700000007000.0
+      ]
+    }
+  }
+}
